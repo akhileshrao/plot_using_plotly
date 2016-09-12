@@ -2,7 +2,7 @@
  * Created by akhileshrao on 9/8/2016.
  */
 
-var Plotly = require('/plotly.js-master/dist/plotly');
+var Plotly = require('/plotly.js');
 
 
 var xData = [
