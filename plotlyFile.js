@@ -2,7 +2,7 @@
  * Created by akhileshrao on 9/8/2016.
  */
 
-/*var Plotly = require('/plotly.js-master/dist/plotly');
+var Plotly = require('/plotly.js-master/dist/plotly');
 
 
 var xData = [
@@ -153,10 +153,10 @@ for( var i = 0 ; i < xData.length ; i++ ) {
 
     layout.annotations.push(result, result2);
 }
+myDiv = document.getElementById('tester');
+Plotly.newPlot(myDiv, data, layout);
 
-Plotly.newPlot('myDiv', data, layout);
-
-
+/*
 Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', function(err, rows){
     var YEAR = 2007;
     var continents = ['Asia', 'Europe', 'Africa', 'Oceania', 'Americas'];
@@ -195,6 +195,7 @@ Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminde
 // Some info about viewport percentages:
 // http://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window
 
+/*
 (function() {
     var d3 = Plotly.d3;
 
@@ -235,3 +236,4 @@ Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminde
     };
 
 })();
+*/
